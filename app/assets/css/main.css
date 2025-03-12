@@ -1,0 +1,16 @@
+@import "tailwindcss" theme(static);
+@import "@nuxt/ui";
+
+@theme static {
+  --color-blue-50: #eef7ff;
+  --color-blue-100: #dceeff;
+  --color-blue-200: #b2dfff;
+  --color-blue-300: #6dc6ff;
+  --color-blue-400: #20a8ff;
+  --color-blue-500: #008dff;
+  --color-blue-600: #006edf;
+  --color-blue-700: #0057b4;
+  --color-blue-800: #004a94;
+  --color-blue-900: #003366;
+  --color-blue-950: #002651;
+}
