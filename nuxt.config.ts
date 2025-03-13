@@ -16,6 +16,10 @@ export default defineNuxtConfig({
     join(currentDir, './app/assets/css/main.css'),
   ],
 
+  alias: {
+    '#main': join(currentDir, './app/assets/css/main.css'),
+  },
+
   future: {
     compatibilityVersion: 4
   },

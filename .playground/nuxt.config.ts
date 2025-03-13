@@ -11,5 +11,6 @@ export default defineNuxtConfig({
   },
   future: {
     compatibilityVersion: 4
-  }
+  },
+  css: ['~/assets/css/playground-main.css']
 })
